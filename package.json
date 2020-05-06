@@ -1,0 +1,13 @@
+{
+  "name": "real-world",
+  "version": "0.1.0",
+  "description": "Real world project",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

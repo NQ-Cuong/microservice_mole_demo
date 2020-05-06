@@ -1,0 +1,16 @@
+{
+  "name": "@app/database",
+  "version": "0.1.0",
+  "description": "migrate database",
+  "main": "index.js",
+  "author": "cuong",
+  "license": "MIT",
+  "scripts": {
+    "migrate": "knex migrate:latest"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.20.13",
+    "pg": "^8.0.2"
+  }
+}
